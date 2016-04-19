@@ -1,7 +1,7 @@
 <#
 
 .SYNOPSIS
-this is a PowerShell script used by NSClient++ to check the status of an
+This is a PowerShell script used by NSClient++ to check the status of an
 iEi Technology Corp. AUPS series VESA Mount Intelligent UPS Module.
 NSClient++ can then be called by Nagios (Op5 Monitor, Icinga or similar) to run this script.
 
