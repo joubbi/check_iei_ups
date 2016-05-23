@@ -19,9 +19,11 @@ The script outputs something like this:
 .\check_iei_ups.ps1 -battery_address 192.168.0.10 -capacity_warning 40 -capacity_critical 10 -temperature_warning 40 -temperature_critical 50 -shutdown
 ```
 
-Licensed under the Apache license version 2. Written by farid.joubbi@consign.se
 
 Tested with an AUPS-B10 and should work with the other models.
+
+Licensed under the Apache license version 2.
+Written by farid.joubbi@consign.se
 
 Version history: 1.0 2016-04-19 initial version.
 
