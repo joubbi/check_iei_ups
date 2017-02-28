@@ -10,10 +10,11 @@ The IP address that you configure in the above step is the address that you have
 The script outputs something like this:
 >Battery status: Standby | status=2 capacity=100%;40;10 voltage=16690 Current=0 Temperature=33;50;60 'Remaining time'=0
 
+
 Tested with an AUPS-B10 and should work with the other models from iEi.
 
 
-##Optional parameters
+### Optional parameters
 ```
  -battery_address [IP address or FQDN of the battery]
  -capacity_warning [warning level for the capacity]
@@ -33,10 +34,10 @@ Tested with an AUPS-B10 and should work with the other models from iEi.
 ```
 
 
-##Version history
+## Version history
 * 1.0 2016-04-19 initial version.
 
-##External links
+## External links
 * http://nsclient.org/
 * http://tw.ieiworld.com/
 
