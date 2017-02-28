@@ -6,7 +6,14 @@ This script assumes that the UPS is reachable over the network. This means that 
 
 The IP address that you configure in the above step is the address that you have to supply to the script using the variable battery_address.
 
-###Optional parameters
+
+The script outputs something like this:
+>Battery status: Standby | status=2 capacity=100%;40;10 voltage=16690 Current=0 Temperature=33;50;60 'Remaining time'=0
+
+Tested with an AUPS-B10 and should work with the other models from iEi.
+
+
+##Optional parameters
 ```
  -battery_address [IP address or FQDN of the battery]
  -capacity_warning [warning level for the capacity]
@@ -16,19 +23,14 @@ The IP address that you configure in the above step is the address that you have
  -shutdown, The computer running this script will shut down if this switch is supplied and the capacity is below 10% ($shutdown_capacity)
 ```
 
-The script outputs something like this:
->Battery status: Standby | status=2 capacity=100%;40;10 voltage=16690 Current=0 Temperature=33;50;60 'Remaining time'=0
 
 ### Examples
-```sh
+```
 .\check_iei_ups.ps1 192.168.0.10
 ```
-```sh
+```
 .\check_iei_ups.ps1 -battery_address 192.168.0.10 -capacity_warning 40 -capacity_critical 10 -temperature_warning 40 -temperature_critical 50 -shutdown
 ```
-
-
-Tested with an AUPS-B10 and should work with the other models from iEi.
 
 
 ##Version history
