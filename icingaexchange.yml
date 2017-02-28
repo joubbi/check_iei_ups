@@ -15,4 +15,4 @@ releases:
         name: check_iei_ups
         url: "file:///check_iei_ups.ps1"
         description: "First release"
-        checksum: 7f2a0b046f8f6b723ad38e4421571639
+        checksum: 6fa839b272f3cd231f15609c99dae402 

@@ -35,7 +35,7 @@ Battery status: Standby | status=2 capacity=100%;40;10 voltage=16690 Current=0 T
 
 .NOTES
 Licensed under the Apache license version 2.
-Written by farid.joubbi@consign.se
+Written by farid@joubbi.se
 
 Tested with an AUPS-B10 and should work with the other models.
 
@@ -43,7 +43,7 @@ Version history:
 1.0 2016-04-19 initial version.
 
 .LINK
-http://www.consign.se/monitoring/
+http://www.joubbi.se/monitoring.html
 http://nsclient.org/
 http://tw.ieiworld.com/
 #>
