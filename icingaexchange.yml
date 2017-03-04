@@ -13,6 +13,6 @@ releases:
     files:
       -
         name: check_iei_ups
-        url: "://gitlab.com/faridj/check_iei_ups/raw/master/check_iei_ups.ps1"
+        url: "https://gitlab.com/faridj/check_iei_ups/raw/master/check_iei_ups.ps1"
         description: "First release"
         checksum: 6fa839b272f3cd231f15609c99dae402 
